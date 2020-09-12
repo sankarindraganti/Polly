@@ -5,7 +5,7 @@ namespace Polly
     public abstract partial class AsyncPolicy
     {
         /// <summary>
-        /// Sets the PolicyKey for this <see cref="AsyncPolicy"/> instance.
+        /// Sets the PolicyKey for this <see cref="AsyncPolicy"/> instance..
         /// <remarks>Must be called before the policy is first used.  Can only be set once.</remarks>
         /// </summary>
         /// <param name="policyKey">The unique, used-definable key to assign to this <see cref="AsyncPolicy"/> instance.</param>
